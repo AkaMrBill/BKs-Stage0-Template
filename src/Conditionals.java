@@ -23,14 +23,30 @@ void main() {
     // to turn on (shooterVelocity = 1) or turn off (shooterVelocity = 0) the
     // shooter motors. Then print the value of `shooterVelocity`. After running,
     // change `shooterEnabled` to `true` and re-run; the code should now print 1.
-    boolean shooterEnabled = false;
+   /*  boolean shooterEnabled = false;
+    int shooterVelocity;
+    if (shooterEnabled){
+        shooterVelocity=1;}
+    else
+    {
+    shooterVelocity = 0;}
+    System.out.println(shooterVelocity); */
 
 
     // Print "Success!" if `statusCode` is equal to 0. Otherwise, if `statusCode`
     // is NOT EQUAL to 1, print "User exited code." Else, print "There was an error."
     // After running, change `statusCode` to 0, then 2; the code should print
     // "Success!" and "User exited code." respectively.
-    int statusCode = 1;
+    /* int statusCode = 3;
+    if(statusCode == 0){
+        System.out.println("Success");
+    }
+    else if(statusCode != 1){
+        System.out.println("User exited code");
+    }
+    else{
+        System.out.println("There was an Error");
+    } */
 
 
     // If `input` is greater than or equal to 5, print "Controller input detected."
