@@ -37,4 +37,10 @@ void main() {
     // (it prints 360.0 with a decimal part, instead of just 360, since the
     // variable uses a data type with decimal parts).
 
+    /*double pi = 3.142857;
+    int g = 10;
+    String mode = "autonomous";
+    System.out.println(pi + " " + g +" " + mode );*/
+    double degrees = 360;
+System.out.println(degrees);
 }
