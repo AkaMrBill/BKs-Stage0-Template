@@ -8,27 +8,38 @@ void main() {
     // Create two integer variables, `first` and `second`. Assign `first`
     // a value of 5, and `second` a value of 4. Then, print the sum of
     // `first` and `second`.
+    //int first = 5;
+    //int second = 4;
+    //System.out.println(first+second);
 
 
     // Create an integer variable `result`. Using Java math operators, multiply
     // the sum of 1 and 6 with the difference of 7 and 8, and store it in the
     // `result` variable. Then, print the value of `result`.
+    //int result;
+    //result = (1*6)*(8-7);
+    //System.out.println(result);
 
 
     // Given the below variable `rotPerSec`, calculate the corresponding
     // amount of rotations per hour and store it in a variable `rotPerHour`.
     // Then, print the value of `rotPerHour`.
-    int rotPerSec = 5;
-
+    // int rotPerSec = 5;
+    // int rotPerHour = (rotPerSec * 3600);
+    // System.out.println(rotPerHour);
 
     // Create an integer variable `quotient1`, and assign to it the value
     // of 5 divided by 3. Then print the value of `quotient1`.
+    //int quotient1 = (5/3);
+    //System.out.println(quotient1);
 
 
     // Create a variable `quotient2` of type double, and assign to it the
     // value of 5.0 divided by 3. Then print the value of `quotient2`.
     // Note how Java requires at least one of the numbers to be a double in
     // order to perform the division and preserve the decimal part.
+    //double quotient2 = (5.0 / 3);
+    //System.out.println(quotient2);
 
 
     // Convert `rawEncoderDegrees` to its corresponding degree amount on a scale
@@ -39,12 +50,16 @@ void main() {
 
     // Using only the increment operator, add 1 to the `timer` variable below.
     // Then print the value of `timer`.
-    int timer = 1000;
+    //int timer = 1000;
+    //timer ++;
+    //System.out.println(timer);
 
 
     // Using only the decrement operator, subtract 1 from the `secondsLeftInMatch`
     // variable below. Then print the value of `secondsLeftInMatch`.
-    int secondsLeftInMatch = 85;
+    // int secondsLeftInMatch = 85;
+    // secondsLeftInMatch --;
+    // System.out.println(secondsLeftInMatch);
 
 
     // Print the sum, difference, product, and quotient of the two variables
@@ -60,5 +75,7 @@ void main() {
     // In programming, we refer to such removal of decimal parts as
     // "truncation", and it often results in a loss of information if handled
     // incorrectly.
-
+    // double avg;
+    // avg = (2+5+4)/3.0;
+    // System.out.println(avg);
 }
